@@ -97,6 +97,7 @@ while True:
         cv2.putText(img, str(f"Cam Distance: {float(round(cam_distance+15, 1))} cm"), (35, 50), cv2.FONT_HERSHEY_COMPLEX, 0.7, GREEN, 2)
         cv2.putText(img, str(f"Stride Length: {int(stride_length)} cm"), (35, 90), cv2.FONT_HERSHEY_COMPLEX, 0.7, WHITE, 2)
         print("modify")
+        print("modify2")
 
         # cTime = time.time()
         # fps = 1 / (cTime - pTime)  # fps calculation formula
